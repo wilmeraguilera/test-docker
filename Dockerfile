@@ -1,4 +1,4 @@
-FROM quay.io/wilmeraguilera/parent-http
+FROM quay.io/wilmeraguilera/parent-httpd
 
 LABEL  	io.openshift.expose-services="8080:httpd" \
 	io.openshift.tags="apache, httpd"
